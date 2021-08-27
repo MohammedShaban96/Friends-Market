@@ -1,0 +1,62 @@
+1- 
+Src: Images/jackets/Military Jacket.jpg
+price: LE 400.50 EGP
+desc: Military Jacket
+info: Short, thin windbreaker jacket with zipper closure
+item_date: 2019-07-28
+
+2-
+src: Images/jackets/Casual Windbreaker Jacket.jpg
+price: LE 600 EGP
+desc: Casual Windbreaker Jacket
+info: Short, thin windbreaker jacket with Mandarin collar.Polyester, Cotton
+item_date: 2019-07-28
+
+3-
+src: Images/jackets/Casual Winter Coat.png
+price: LE 450 EGP
+desc: Casual Winter Coat
+info: Warm, quilted and padded short winter jacket with zipper closure.Nylon, Cotton 
+item_date: 2019-07-28
+
+4-
+src: Images/jackets/Casual_Autumn_Jacket.jpg
+price: LE 400 EGP
+desc: Casual_Autumn_Jacket
+info: Short fleece jacket with Mandarin collar and button-down closure.Polyester, Cotton
+item_date: 2019-07-28
+
+5-
+src: Images/jackets/Casual_Baseball_Jacket.jpg
+price: LE 480.50 EGP
+desc: Casual_Baseball_Jacket
+info: Short slim-fit jacket with Mandarin collar and zipper closure.Acetate
+item_date: 2019-07-29
+
+6-
+src: Images/jackets/Emiliano Jackets.jpg
+price: LE 520.50 EGP
+desc: Emiliano Jackets
+info: Faux leather slim-fit bomber jacket with zipper closure. Polyester
+item_date: 2019-07-29
+
+7-
+src: Images/jackets/Gentleman Jacket.jpg
+price: LE 600 EGP
+desc: Gentleman Jacket
+info: Short, thin windbreaker jacket with standing collar and zipper closure. Polyester
+item_date: 2019-07-29
+
+8-
+src: Images/jackets/Ivano Jacket.png
+price: LE 470 EGP
+desc: Ivano Jacket
+info: Regular-fit faux leather jacket with zipper closure. Cotton
+item_date: 2019-07-30
+
+9-
+src: Images/jackets/Jenson Denim Jacket.jpg
+price: LE 600 EGP
+desc: Jenson Denim Jacket
+info: A regular fit denim jacket with metallic button front. Cotton, Spandex
+item_date: 2019-07-30

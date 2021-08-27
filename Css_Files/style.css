@@ -1,0 +1,370 @@
+/*
+  Design Needed;
+  First Color: rgb(37, 52, 57) For Header;
+  Second Color : #FFFFFF Text in Header;
+  Third Color : rgb(235, 235, 235) Icons Bar Footer Bar;
+  Fourth Color : rgb(242, 108, 79) If a product is saled then u type SALE with This color
+  5th Color : rgb(0,0,0) For View All btn;
+  6th Color : 
+*/
+
+/* Login Page Style */
+#login_page{
+    margin: 0;
+    padding: 0;
+    background: url("../Images/Login_page/background.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+}
+/* Whole Form */
+.loginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 450px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+#h2_login{
+    margin: 0;
+    padding: 0 0 25px;
+    color:#1E90FF;
+    text-align: center;
+}
+.loginBox p{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color : #fff;
+}
+.loginBox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginBox .login_input{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline:none;
+    height: 40px;
+    color:#fff;
+    font-size: 16px;
+}
+.loginBox .login_button{
+    outline: none;
+    border:none;
+    height: 40px;
+    color : #fff;
+    font-size: 16px;
+    background: rgb(255,38,126);
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+.loginBox .login_button:hover{
+    background: #efed40;
+    color: #0062cc;
+}
+.loginBox a{
+    color: rgb(242, 108, 79);
+    font-weight: bold;
+    font-size: 14px;
+}
+.loginBox a:hover{
+    color: #0062cc;
+}
+.loginBox a:active{
+    color: #c69500;
+}
+::placeholder{
+    color : rgba(255,255,255,0.5);
+}
+.user_img{
+    width:100px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+    border-radius: 50%;
+}
+
+/*-----------------------------------*/
+/* Register Page */
+#register_page{
+    background-image: linear-gradient(to right, #ff5722,#ff9800);
+    margin-top : 150px !important;
+    height: 1500;
+}
+.register-left{
+    text-align:center;
+    color:#fff;
+    padding: 30px;
+}
+.register-left p {
+    padding: 20px 20px 0;
+}
+.register-left .btn-primary{
+    border-radius:1.5rem ;
+    border: none;
+    width: 120px;
+    background: #f8f8f8;
+    font-weight: 600;
+    color: #555;
+    margin-top:20px;
+    padding: 10px;
+}
+
+.register-left .btn-primary:hover{
+    background: #000;
+}
+.register-right{
+    border: none;
+    background: #f8f8f8;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    padding: 50px;
+}
+
+.register-right h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #555;
+}
+.register-form{
+    padding:30px;
+}
+.register-right .btn-primary{
+    float:right;
+    border-radius:1.5rem ;
+    border: none;
+    width: 120px;
+    background: #ff9800;
+    color: #fff;
+    margin-top:28px;
+    padding: 10px;
+}
+
+.register-right .btn-primary:hover{
+    background: #ff5722;
+}
+/*********************************************************/
+/*Admin Support Page*/
+.adminsupport{
+  border: none;
+    /*background-color:rgba(0,0,0,0.3);*/
+  background-image: linear-gradient(to right, #ff5722,#ff9800);
+    padding: 50px;
+    width:2000px;
+  margin:30px 0px 200px 0px;
+  
+}
+.adminform2 lable{
+  font-family: fantasy;
+  
+  
+}
+.adminform2 input{
+  border:1px solid black; 
+}
+
+
+
+
+
+/*End -----------------------------*/
+/* ------------------------------------------*/
+/**{   box-sizing: border-box;}*/
+#header_page{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#index_page{
+    height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* Start Upper Bar */
+.upper-bar{
+  background-color: rgb(37, 52, 57);
+  color :  #FFFFFF;
+  padding : 10px;
+}
+.header-span{
+    padding: 7px;
+    color: #bfc6c9;
+    text-align: center;
+}
+
+/* End Upper Bar */
+
+/* Start icon Bar */
+.icon-bar{
+  background-color: rgb(235, 235, 235);
+  padding : 5px;
+}
+
+.left-icon-bar{
+  padding: 5px;
+  font-size : 15px;
+  float: left;
+}
+.right-icon-bar{
+  font-size : 15px;
+  padding: 5px;
+}
+.fa{
+  font-size : 20px;
+  padding: 8px;
+  display: inline-block;
+  font-style: normal;
+  line-height: 1;
+}
+/* End Icon Bar */
+
+/* Start Nav Bar */
+.navbar-brand >span {
+  text-align: center;
+  font-size :30px;
+}
+.navbar-brand span:first-child{
+  font-weight: bold;
+  color : #2B3252;
+}
+.navbar-brand span:last-child{
+  color: #EF5455;
+
+}
+.navbar-nav .nav-link{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+.navbar-brand{
+  padding: 5px;
+}
+
+/* End Nav Bar */
+.title-div{
+    border-bottom: 1px solid #D1D1D1;
+    border-top: 1px solid #D1D1D1;
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 14px;
+    font-style: italic;
+    margin:15px auto 30px auto;
+}
+
+/*Start Content */
+.card{
+    border-bottom-right-radius: 20px;
+    float: left;
+    width: 300px;
+    height: 500px;
+    margin-left:10px;
+    margin-bottom: 10px;
+
+}
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+.card-header{
+    display: none;
+}
+.container3{
+    float: left;
+}
+.container_show{
+  float: right;
+}
+.cleardiv{clear: both;}
+
+#buy{
+    font-family: fantasy;
+    font-size:25px;;
+    background-color: black;
+    color: white;
+    padding:1% 10%;
+}
+#buy:hover{
+    color:red;
+}
+.pro{
+   text-align:center;
+    margin-left:50px;
+    margin-bottom: 50px;
+}
+
+
+/* End Content */
+
+/* Start Footer */
+.where ul,.what ul,.hot ul{
+  list-style: none;
+}
+.where ul a,.what ul a,.hot a:hover{
+  color: #3a3a3a;
+  font-size: 14px;
+}
+.social,.social2{
+  height: 50px;
+}
+.social2  p{
+  position: absolute;
+  left: 55px;
+}
+#finds{
+  position: absolute;
+  left: 55px;
+  font-weight: bold;
+}
+.f1{
+  position: absolute;
+  left: 160px;
+  top: 5px;
+}
+.f2{
+  position: absolute;
+  left: 190px;
+  top: 5px;
+}
+.f3{
+  position: absolute;
+  left: 225px;
+  top: 5px;
+}
+.f4{
+  position: absolute;
+  left: 265px;
+  top: 5px;
+}
+.f5{
+  position: absolute;
+  left: 300px;
+  top: 5px;
+}
+.social a:hover{
+  text-decoration: none;
+  color: #044f10;
+  font-size: 25px;
+}
+.what,.where{
+  border-right: 1px solid lightgrey;
+}
+.what,.where,.hot{
+  margin-top: 30px;
+}
+.footer{
+  position: relative;
+  height: 100px;
+  margin-top: -100px;
+  clear: both;
+}
+/* End Footer */
